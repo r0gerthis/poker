@@ -26,7 +26,7 @@ tafel_1 = []
 tafel_2 = []
 totaalinschr = len(iedereen)+len(tafelbazen)
 
-print_sleep('\nw00t, BBPT BLOEMEN EDITIE - TAFEL INDELING MACHINE\n', TIME_TO_READ_SLEEP)
+print_sleep('\nw00t, TAFEL INDELING MACHINE\n', TIME_TO_READ_SLEEP)
 print_sleep(f'Totaal aantal inschrijvingen: {totaalinschr}', TIME_TO_READ_SLEEP)
 print_sleep('Deelnemers nu zijn:', TIME_TO_READ_SLEEP)
 
@@ -35,13 +35,7 @@ for x in iedereen:
 for x in tafelbazen:
     print_sleep(f' - {x} (tafel baas)', ORDER_SLEEP)
 
-# print_sleep('\n', TIME_TO_READ_SLEEP)
-# print_sleep('Iedereen husselen...:', TIME_TO_READ_SLEEP)
 random.shuffle(iedereen)
-# for x in iedereen:
-#     print_sleep(f' - {x}', ORDER_SLEEP)
-# for x in tafelbazen:
-#     print_sleep(f' - {x} (tafel baas)', ORDER_SLEEP)
 
 i = 0
 print_sleep('\n',TIME_TO_READ_SLEEP)
